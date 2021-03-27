@@ -148,6 +148,12 @@ Finally we need to run the playbook using the command `ansible-plabook load_bala
 
 #### Note : For this practical as we need are allowing certain port either on the proxy server or in the webserver you need to have security group which allows all traffic also remember the names of the instances must be servers(for the webserver instances) and proxy(for the proxy server instances) changing these you need to make changes at many places in the playbooks and configuration files
 
+## Webpage Final output :
+![Web Page Output 1](https://cdn.hashnode.com/res/hashnode/image/upload/v1616874760099/SE2AwHC61.png)
+
+
+![Web Page Output 2](https://cdn.hashnode.com/res/hashnode/image/upload/v1616874839148/hJNe0CLn0.png)
+
 ### If you want to know how to configure reverse proxy locally you can have a look at it [here](https://hashnode.com/post/configuring-reverse-proxy-using-ansible-playbooks-ckmryb49u07zkl0s1clewegym)
 
 If everything works fine the output will be as follows
