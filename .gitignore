@@ -1,0 +1,2 @@
+# ignoring the private key file
+*.pem

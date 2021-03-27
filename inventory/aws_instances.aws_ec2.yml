@@ -1,0 +1,8 @@
+plugin: amazon.aws.aws_ec2
+# uncomment the below lines and give the values if you want to give the access_key and secret_key in this file
+# aws_access_key:
+# aws_secret_key:
+keyed_groups:
+        - key: tags['Name']
+regions:
+        - us-east-1
